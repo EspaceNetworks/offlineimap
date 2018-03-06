@@ -1,3 +1,10 @@
+notifications:
+  webhooks:
+    urls:
+      - https://webhooks.gitter.im/e/b615d88bcc12cc7885d7
+    on_success: change  # options: [always|never|change] default: always
+    on_failure: always  # options: [always|never|change] default: always
+    on_start: never     # options: [always|never|change] default: always
 language: python
 python:
   - '2.7'
@@ -34,8 +41,10 @@ matrix:
     language: generic
     env: PYTHON=3.6.4 OUTLOOK_AUTH=LOGIN GMAIL_AUTH=XOAUTH2
   allow_failures:
-  #- python: '3.6'  # Python3 runs should work fine, because shebang is set to python2.
   - os: osx  # OSX should work now.
+    env: PYTHON=3.6.4 OUTLOOK_AUTH=LOGIN GMAIL_AUTH=XOAUTH2
+  - os: osx
+    env: PYTHON=3.6.4 OUTLOOK_AUTH=PLAIN GMAIL_AUTH=XOAUTH2
 cache: pip
 before_install:
 - if [[ "$TRAVIS_OS_NAME" == "osx" ]]; then brew update && brew install openssl readline; fi
