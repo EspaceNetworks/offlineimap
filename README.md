@@ -1,14 +1,25 @@
 [![License: GPL v2](https://img.shields.io/badge/License-GPL%20v2-blue.svg)](https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html)
+PyPi Package Info:
+[![Python versions supported](https://img.shields.io/pypi/pyversions/coverage.svg)](https://pypi.python.org/pypi/coverage)
+[![Package stability](https://img.shields.io/pypi/status/coverage.svg)](https://pypi.python.org/pypi/coverage)
 
 Upstream status:
 [![OfflineIMAP build status on Travis-CI.org](https://travis-ci.org/OfflineIMAP/offlineimap.svg?branch=master)](https://travis-ci.org/OfflineIMAP/offlineimap)
 [![OfflineIMAP code coverage on Codecov.io](https://codecov.io/gh/OfflineIMAP/offlineimap/branch/master/graph/badge.svg)](https://codecov.io/gh/OfflineIMAP/offlineimap)
 [![Gitter chat](https://badges.gitter.im/OfflineIMAP/offlineimap.png)](https://gitter.im/OfflineIMAP/offlineimap)
+[![Python versions supported](https://img.shields.io/pypi/pyversions/coverage.svg)](https://pypi.python.org/pypi/coverage)
+[![Package stability](https://img.shields.io/pypi/status/coverage.svg)](https://pypi.python.org/pypi/coverage)
+[![Documentation](https://readthedocs.org/projects/offlineimap/badge/?version=latest&style=flat)](https://offlineimap.readthedocs.io/)
+[![PyPI status](https://badge.fury.io/py/offlineimap.svg)](https://pypi.python.org/pypi/offlineimap)
+[![Kit format](https://img.shields.io/pypi/format/coverage.svg)](https://pypi.python.org/pypi/coverage)
+[![Say thanks to OfflineIMAP](https://img.shields.io/badge/Say%20Thanks-!-1EAEDB.svg)](https://saythanks.io/to/OfflineIMAP)
 
 Fork status:
 [![OfflineIMAP build status on Travis-CI.org](https://travis-ci.org/EspaceNetworks/offlineimap.svg?branch=master)](https://travis-ci.org/EspaceNetworks/offlineimap)
 [![OfflineIMAP code coverage on Codecov.io](https://codecov.io/gh/EspaceNetworks/offlineimap/branch/master/graph/badge.svg)](https://codecov.io/gh/EspaceNetworks/offlineimap)
 [![Gitter chat](https://badges.gitter.im/EspaceNetworks/offlineimap.png)](https://gitter.im/EspaceNetworks/offlineimap)
+[![Say thanks to ESPACE Networks](https://img.shields.io/badge/Say%20Thanks-!-1EAEDB.svg)](https://saythanks.io/to/chris001)
+
 
 [offlineimap]: http://github.com/OfflineIMAP/offlineimap
 [website]: http://www.offlineimap.org
@@ -16,17 +27,14 @@ Fork status:
 [blog]: http://www.offlineimap.org/posts.html
 
 Links:
-* Official github code repository: [offlineimap]
-* Website: [website]
-* Wiki: [wiki]
-* Blog: [blog]
+* [Official (upstream) github code repository][offlineimap]
+* [Website][website]
+* [Wiki][wiki]
+* [Blog][blog]
 
 # OfflineIMAP
 
 ***"Get the emails where you need them."***
-
-[Official offlineimap][offlineimap].
-
 
 ## Description
 
