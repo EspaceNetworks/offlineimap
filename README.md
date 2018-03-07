@@ -1,11 +1,11 @@
 Upstream status:
 [![OfflineIMAP build status on Travis-CI.org](https://travis-ci.org/OfflineIMAP/offlineimap.svg?branch=master)](https://travis-ci.org/OfflineIMAP/offlineimap)
-[![OfflineIMAP code coverage on Codecov.io](https://codecov.io/gh/OfflineIMAP/offlineimap/branch/master/graph/badge.svg)](https://codedov.io/gh/OfflineIMAP/offlineimap)
+[![OfflineIMAP code coverage on Codecov.io](https://codecov.io/gh/OfflineIMAP/offlineimap/branch/master/graph/badge.svg)](https://codecov.io/gh/OfflineIMAP/offlineimap)
 [![Gitter chat](https://badges.gitter.im/OfflineIMAP/offlineimap.png)](https://gitter.im/OfflineIMAP/offlineimap)
 
 Fork status:
 [![OfflineIMAP build status on Travis-CI.org](https://travis-ci.org/EspaceNetworks/offlineimap.svg?branch=master)](https://travis-ci.org/EspaceNetworks/offlineimap)
-[![OfflineIMAP code coverage on Codecov.io](https://codecov.io/gh/EspaceNetworks/offlineimap/branch/master/graph/badge.svg)](https://codedov.io/gh/EspaceNetworks/offlineimap)
+[![OfflineIMAP code coverage on Codecov.io](https://codecov.io/gh/EspaceNetworks/offlineimap/branch/master/graph/badge.svg)](https://codecov.io/gh/EspaceNetworks/offlineimap)
 [![Gitter chat](https://badges.gitter.im/EspaceNetworks/offlineimap.png)](https://gitter.im/EspaceNetworks/offlineimap)
 
 [offlineimap]: http://github.com/OfflineIMAP/offlineimap
