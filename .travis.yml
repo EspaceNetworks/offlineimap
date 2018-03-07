@@ -69,7 +69,7 @@ install:
 - python tests/create_conf_file.py
 script:
 #- pytest  # Disabled because OLItest hardcoded LOGIN method which fails on Gmail. Gmail must use/test the built-in XOAUTH2 authentication in offlineimap.
-- ./offlineimap.py -c ./oli-travis.conf
+- coverage run ./offlineimap.py -c ./oli-travis.conf
 - codecov
 notifications:
   email: false
