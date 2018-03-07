@@ -25,15 +25,19 @@ matrix:
   fast_finish: true
   include:
   - os: osx
+    osx_image: xcode9.3beta
     language: generic
     env: PYTHON=2.7.14 OUTLOOK_AUTH=PLAIN GMAIL_AUTH=XOAUTH2
   - os: osx
+    osx_image: xcode9.3beta
     language: generic
     env: PYTHON=2.7.14 OUTLOOK_AUTH=LOGIN GMAIL_AUTH=XOAUTH2
   - os: osx
+    osx_image: xcode9.3beta
     language: generic
     env: PYTHON=3.6.4 OUTLOOK_AUTH=PLAIN GMAIL_AUTH=XOAUTH2
   - os: osx
+    osx_image: xcode9.3beta
     language: generic
     env: PYTHON=3.6.4 OUTLOOK_AUTH=LOGIN GMAIL_AUTH=XOAUTH2
   allow_failures:
