@@ -63,8 +63,8 @@ before_install:
 - if [[ "$TRAVIS_OS_NAME" == "osx" ]]; then python -m pip install -U pip; fi
 - if [[ "$TRAVIS_OS_NAME" == "osx" ]]; then python -m easy_install -U setuptools; fi
 install:
-- pip install -r requirements.txt  #pip2 makes mac osx python 3.6 pass.
-- pip install -r tests/requirements.txt #pip2 makes mac osx python 3.6 pass.
+- pip install -r requirements.txt && pip2 install -r requirements.txt #pip2 makes mac osx python 3.6 pass.
+- pip install -r tests/requirements.txt && pip2 install -r tests/requirements.txt #pip2 makes mac osx python 3.6 pass.
 - export PATH=$PATH:.
 - python tests/create_conf_file.py
 script:
