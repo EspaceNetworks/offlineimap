@@ -1,10 +1,4 @@
-notifications:
-  webhooks:
-    urls:
-      - https://webhooks.gitter.im/e/b615d88bcc12cc7885d7
-    on_success: change  # options: [always|never|change] default: always
-    on_failure: always  # options: [always|never|change] default: always
-    on_start: never     # options: [always|never|change] default: always
+
 language: python
 python:
   - '2.7'
@@ -13,6 +7,7 @@ os:
   - linux
   #- osx  #Can't specify OSX here, because Travis can't yet install python in its test environment, so Travis would remove OSX from the test run.
           #We have a good workaround however, no worries.
+sudo: false
 env:
   global:
   - secure: iF/0aJyLAfx4dfFIWcdDOfAQKcN9GyZmi0+n7lmHnCdPC1uEer7W8eCvyeIoN3lGPUjXKcYkKyUvX6m8n64E2Js0w3zTNzCx0e/0owu4T5mgbxYEm4/p+cZLVuHMwdBs+qU90yPy8aQnUkQgUISDf53dl5MTtcBVbXTpx6H14IJmNXjrfXabG/07kclh5rAZnrmgQHvfR7n32BTghwo0nZfe41SVpM1T9YKoomBEu0yABV/+74i3tZr1Y+BF4sy8noipr1mwUhOIawaz8TmNRT+8E+1vLzbgAfd8qJgNmLPqd0hHLdDU5Fuo6I2XpvaUIPwShn6wZmloH6inbDuN4aafc9NgytvSDfwvHlYSYJJppiqYKqtd145ppsiPE7peT4k7i9U7fmbuJkH87Z1POF/CQRSs32YWRFpVppUBOUGJPSSMxr/dofX/E01YNGButoMJPvyCsQQX/9KwRFkwEK7mX++c0RMAv1R8VeI1ZKtUixYKLU3lYLYJsKduHaZnH2wOC9YJG/qU3ywp3EDfhVTLkY0eQ1PFcqurw1BUICS/d58vH121f/cMhvn5Pa3+bvHZBq7ZbC6jEU2QXWquzOkM5CBXMqLoxgKiVlrzTfWxgQIjY4IHZH6V4E2BOfFJw5s6bG8mMZjY3dpHRvsIMltNn9tXGSWcVepWlyXdlN4=
@@ -27,6 +22,7 @@ env:
   - OUTLOOK_AUTH=PLAIN    GMAIL_AUTH=XOAUTH2
   - OUTLOOK_AUTH=LOGIN    GMAIL_AUTH=XOAUTH2
 matrix:
+  fast_finish: true
   include:
   - os: osx
     language: generic
@@ -75,3 +71,12 @@ script:
 #- pytest  # Disabled because OLItest hardcoded LOGIN method which fails on Gmail. Gmail must use/test the built-in XOAUTH2 authentication in offlineimap.
 - ./offlineimap.py -c ./oli-travis.conf
 - codecov
+notifications:
+  email: false
+  webhooks:
+    urls:
+      - https://webhooks.gitter.im/e/b615d88bcc12cc7885d7
+    on_success: change  # options: [always|never|change] default: always
+    on_failure: always  # options: [always|never|change] default: always
+    on_start: never     # options: [always|never|change] default: always
+
