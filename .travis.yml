@@ -64,14 +64,15 @@ before_install:
 - if [[ "$TRAVIS_OS_NAME" == "osx" ]]; then python -m easy_install -U setuptools; fi
 install:
 - pip install -r requirements.txt # && pip2 install -r requirements.txt #pip2 makes mac osx python 3.6 pass.
-- pip2 install coverage
+#- pip2 install coverage
 - pip install -r tests/requirements.txt # && pip2 install -r tests/requirements.txt #pip2 makes mac osx python 3.6 pass.
 - export PATH=$PATH:.
 - python tests/create_conf_file.py
 script:
 #- pytest  # Disabled because OLItest hardcoded LOGIN method which fails on Gmail. Gmail must use/test the built-in XOAUTH2 authentication in offlineimap.
-#- python2 $(which coverage) run ./offlineimap.py -c ./oli-travis.conf
-- coverage run ./offlineimap.py -c ./oli-travis.conf
+##- python2 $(which coverage) run ./offlineimap.py -c ./oli-travis.conf
+#- coverage run ./offlineimap.py -c ./oli-travis.conf
+- ./offlineimap.py -c ./oli-travis.conf
 - codecov
 notifications:
   email: false
