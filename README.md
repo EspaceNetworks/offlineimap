@@ -1,4 +1,5 @@
-[![License: GPL v2](https://img.shields.io/badge/License-GPL%20v2-blue.svg)](https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html)
+License: [![License: GPL v2](https://img.shields.io/badge/License-GPL%20v2-blue.svg)](https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html)
+
 PyPi Package Info:
 [![Python versions supported](https://img.shields.io/pypi/pyversions/coverage.svg)](https://pypi.python.org/pypi/coverage)
 [![Package stability](https://img.shields.io/pypi/status/coverage.svg)](https://pypi.python.org/pypi/coverage)
