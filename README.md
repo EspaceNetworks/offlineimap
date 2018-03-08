@@ -28,10 +28,12 @@ Fork status:
 [![Say thanks to ESPACE Networks](https://img.shields.io/badge/Say%20Thanks-!-1EAEDB.svg)](https://saythanks.io/to/chris001)
 [![Follow on twitter](https://img.shields.io/twitter/follow/ESPACENetworks.svg?style=social&logo=twitter)](https://twitter.com/intent/follow?screen_name=ESPACENetworks)
 
-[offlineimap]: http://github.com/OfflineIMAP/offlineimap
+[offlineimap]: https://github.com/OfflineIMAP/offlineimap
 [website]: http://www.offlineimap.org
-[wiki]: http://github.com/OfflineIMAP/offlineimap/wiki
+[wiki]: https://github.com/OfflineIMAP/offlineimap/wiki
 [blog]: http://www.offlineimap.org/posts.html
+[docs]: https://offlineimap.readthedocs.io/
+[mailing_list]: http://lists.alioth.debian.org/mailman/listinfo/offlineimap-project
 
 Links:
 * [Official (upstream) github code repository][offlineimap]
@@ -39,6 +41,7 @@ Links:
 * [Wiki][wiki]
 * [Blog][blog]
 * [![Documentation](https://readthedocs.org/projects/offlineimap/badge/?version=latest&style=flat)](https://offlineimap.readthedocs.io/)
+* [Mailing list][mailing_list]
 
 
 # OfflineIMAP
