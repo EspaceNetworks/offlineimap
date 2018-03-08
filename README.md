@@ -15,7 +15,7 @@
 Master: [![OfflineIMAP build status on Travis-CI.org](https://travis-ci.org/OfflineIMAP/offlineimap.svg)](https://travis-ci.org/OfflineIMAP/offlineimap)
 [![Code coverage](https://codecov.io/gh/OfflineIMAP/offlineimap/branch/master/graph/badge.svg)](https://codecov.io/gh/OfflineIMAP/offlineimap)
 [![Gitter chat](https://badges.gitter.im/OfflineIMAP/offlineimap.png)](https://gitter.im/OfflineIMAP/offlineimap)
-[![Say thanks to OfflineIMAP](https://img.shields.io/badge/Say%20Thanks-!-1EAEDB.svg)](https://saythanks.io/to/OfflineIMAP)
+[![Say thanks to OfflineIMAP](https://img.shields.io/badge/Say%20Thanks-!-______.svg)](https://saythanks.io/to/OfflineIMAP)
 
 Next:
 [![OfflineIMAP build status on Travis-CI.org](https://travis-ci.org/OfflineIMAP/offlineimap.svg?branch=next)](https://travis-ci.org/OfflineIMAP/offlineimap)
