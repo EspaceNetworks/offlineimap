@@ -12,9 +12,6 @@ Upstream status:
 [![Gitter chat](https://badges.gitter.im/OfflineIMAP/offlineimap.png)](https://gitter.im/OfflineIMAP/offlineimap)
 [![Say thanks to OfflineIMAP](https://img.shields.io/badge/Say%20Thanks-!-1EAEDB.svg)](https://saythanks.io/to/OfflineIMAP)
 
-Documentation: 
-[![Documentation](https://readthedocs.org/projects/offlineimap/badge/?version=latest&style=flat)](https://offlineimap.readthedocs.io/)
-
 Fork status:
 [![OfflineIMAP build status on Travis-CI.org](https://travis-ci.org/EspaceNetworks/offlineimap.svg?branch=master)](https://travis-ci.org/EspaceNetworks/offlineimap)
 [![OfflineIMAP code coverage on Codecov.io](https://codecov.io/gh/EspaceNetworks/offlineimap/branch/master/graph/badge.svg)](https://codecov.io/gh/EspaceNetworks/offlineimap)
