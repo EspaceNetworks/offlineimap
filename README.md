@@ -4,7 +4,7 @@ PyPi package info:
 [![Python versions supported](https://img.shields.io/pypi/pyversions/offlineimap.svg)](https://pypi.python.org/pypi/offlineimap)
 [![Package stability](https://img.shields.io/pypi/status/offlineimap.svg)](https://pypi.python.org/pypi/offlineimap)
 [![PyPI status](https://badge.fury.io/py/offlineimap.svg)](https://pypi.python.org/pypi/offlineimap)
-[![Kit format](https://img.shields.io/pypi/format/coverage.svg)](https://pypi.python.org/pypi/coverage)
+[![Kit format](https://img.shields.io/pypi/format/offlineimap.svg)](https://pypi.python.org/pypi/offlineimap)
 
 Upstream status:
 [![OfflineIMAP build status on Travis-CI.org](https://travis-ci.org/OfflineIMAP/offlineimap.svg?branch=master)](https://travis-ci.org/OfflineIMAP/offlineimap)
