@@ -140,3 +140,43 @@ $ make html  # Requires rst2html
 $ make man   # Requires a2x (http://asciidoc.org)
 $ make api   # Requires sphinx
 ```
+
+
+# Project leaders
+
+[nicolas33](https://github.com/nicolas33) is the sysadmin.
+
+These contributors donate time on a consistent basis to help guide and
+maintain the project:
+
+* [chris001](https://github.com/chris001)
+
+
+## Contributors
+
+This project exists thanks to all the people who contribute. [[Contribute](CONTRIBUTING.md)].
+<a href="https://github.com/OfflineIMAP/offlineimap/graphs/contributors"><img src="https://opencollective.com/offlineimap/contributors.svg?width=890" /></a>
+
+
+## Backers
+
+Thank you to all our backers! 🙏 [[Become a backer](https://opencollective.com/offlineimap#backer)]
+
+<a href="https://opencollective.com/offlineimap#backers" target="_blank"><img src="https://opencollective.com/offlineimap/backers.svg?width=890"></a>
+
+
+## Sponsors
+
+Support this project by becoming a sponsor. Your logo will show up here with a link to your website. [[Become a sponsor](https://opencollective.com/offlineimap#sponsor)]
+
+<a href="https://opencollective.com/offlineimap/sponsor/0/website" target="_blank"><img src="https://opencollective.com/offlineimap/sponsor/0/avatar.svg"></a>
+<a href="https://opencollective.com/offlineimap/sponsor/1/website" target="_blank"><img src="https://opencollective.com/offlineimap/sponsor/1/avatar.svg"></a>
+<a href="https://opencollective.com/offlineimap/sponsor/2/website" target="_blank"><img src="https://opencollective.com/offlineimap/sponsor/2/avatar.svg"></a>
+<a href="https://opencollective.com/offlineimap/sponsor/3/website" target="_blank"><img src="https://opencollective.com/offlineimap/sponsor/3/avatar.svg"></a>
+<a href="https://opencollective.com/offlineimap/sponsor/4/website" target="_blank"><img src="https://opencollective.com/offlineimap/sponsor/4/avatar.svg"></a>
+<a href="https://opencollective.com/offlineimap/sponsor/5/website" target="_blank"><img src="https://opencollective.com/offlineimap/sponsor/5/avatar.svg"></a>
+<a href="https://opencollective.com/offlineimap/sponsor/6/website" target="_blank"><img src="https://opencollective.com/offlineimap/sponsor/6/avatar.svg"></a>
+<a href="https://opencollective.com/offlineimap/sponsor/7/website" target="_blank"><img src="https://opencollective.com/offlineimap/sponsor/7/avatar.svg"></a>
+<a href="https://opencollective.com/offlineimap/sponsor/8/website" target="_blank"><img src="https://opencollective.com/offlineimap/sponsor/8/avatar.svg"></a>
+<a href="https://opencollective.com/offlineimap/sponsor/9/website" target="_blank"><img src="https://opencollective.com/offlineimap/sponsor/9/avatar.svg"></a>
+
