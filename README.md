@@ -150,7 +150,7 @@ $ make api   # Requires sphinx
 
 # Contributors
 
-This project exists thanks to all the people who contribute. [How To Contribute](CONTRIBUTING.rst).
+OfflineIMAP exists thanks to [all the people who contribute](graphs/contributors). [How To Contribute](CONTRIBUTING.rst).
 
 <a href="https://github.com/OfflineIMAP/offlineimap/graphs/contributors"><img src="https://opencollective.com/offlineimap/contributors.svg?width=890" /></a>
 
@@ -165,6 +165,7 @@ Thank you to all our backers! 🙏 [Become a backer](https://opencollective.com/
 # Sponsors
 
 Support OfflineIMAP by becoming a sponsor. Your logo will show up here with a link to your website. 
+
 [Become A Sponsor of OfflineIMAP.](https://opencollective.com/offlineimap#sponsor)
 
 <a href="https://opencollective.com/offlineimap/sponsor/0/website" target="_blank"><img src="https://opencollective.com/offlineimap/sponsor/0/avatar.svg"></a>
