@@ -157,14 +157,15 @@ This project exists thanks to all the people who contribute. [How To Contribute]
 
 # Backers
 
-Thank you to all our backers! 🙏 [[Become a backer](https://opencollective.com/offlineimap#backer)]
+Thank you to all our backers! 🙏 [Become a backer](https://opencollective.com/offlineimap#backer)
 
 <a href="https://opencollective.com/offlineimap#backers" target="_blank"><img src="https://opencollective.com/offlineimap/backers.svg?width=890"></a>
 
 
 # Sponsors
 
-Support this project by becoming a sponsor. Your logo will show up here with a link to your website. [[Become a sponsor](https://opencollective.com/offlineimap#sponsor)]
+Support OfflineIMAP by becoming a sponsor. Your logo will show up here with a link to your website. 
+[Become A Sponsor of OfflineIMAP.](https://opencollective.com/offlineimap#sponsor)
 
 <a href="https://opencollective.com/offlineimap/sponsor/0/website" target="_blank"><img src="https://opencollective.com/offlineimap/sponsor/0/avatar.svg"></a>
 <a href="https://opencollective.com/offlineimap/sponsor/1/website" target="_blank"><img src="https://opencollective.com/offlineimap/sponsor/1/avatar.svg"></a>
