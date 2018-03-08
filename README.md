@@ -145,31 +145,21 @@ $ make man   # Requires a2x (http://asciidoc.org)
 $ make api   # Requires sphinx
 ```
 
-
-# Project leaders
-
-[nicolas33](https://github.com/nicolas33) is the sysadmin.
-
-These contributors donate time on a consistent basis to help guide and
-maintain the project:
-
-* [chris001](https://github.com/chris001)
-
-
-## Contributors
+# Contributors
 
 This project exists thanks to all the people who contribute. [[Contribute](CONTRIBUTING.rst)].
+
 <a href="https://github.com/OfflineIMAP/offlineimap/graphs/contributors"><img src="https://opencollective.com/offlineimap/contributors.svg?width=890" /></a>
 
 
-## Backers
+# Backers
 
 Thank you to all our backers! 🙏 [[Become a backer](https://opencollective.com/offlineimap#backer)]
 
 <a href="https://opencollective.com/offlineimap#backers" target="_blank"><img src="https://opencollective.com/offlineimap/backers.svg?width=890"></a>
 
 
-## Sponsors
+# Sponsors
 
 Support this project by becoming a sponsor. Your logo will show up here with a link to your website. [[Become a sponsor](https://opencollective.com/offlineimap#sponsor)]
 
