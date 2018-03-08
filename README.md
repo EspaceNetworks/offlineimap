@@ -109,7 +109,7 @@ Bugs, issues and contributions can be requested to both the mailing list or the
 - Python version
 - server name or domain
 - CLI options
-- Configuration file (offlineimaprc)
+- Configuration file (`~/.offlineimaprc`)
 - pythonfile (if any)
 - Logs, error
 - Steps to reproduce the error
@@ -150,7 +150,7 @@ $ make api   # Requires sphinx
 
 # Contributors
 
-This project exists thanks to all the people who contribute. [[Contribute](CONTRIBUTING.rst)].
+This project exists thanks to all the people who contribute. [How To Contribute](CONTRIBUTING.rst).
 
 <a href="https://github.com/OfflineIMAP/offlineimap/graphs/contributors"><img src="https://opencollective.com/offlineimap/contributors.svg?width=890" /></a>
 
