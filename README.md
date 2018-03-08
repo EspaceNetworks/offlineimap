@@ -154,7 +154,7 @@ maintain the project:
 
 ## Contributors
 
-This project exists thanks to all the people who contribute. [[Contribute](CONTRIBUTING.md)].
+This project exists thanks to all the people who contribute. [[Contribute](CONTRIBUTING.rst)].
 <a href="https://github.com/OfflineIMAP/offlineimap/graphs/contributors"><img src="https://opencollective.com/offlineimap/contributors.svg?width=890" /></a>
 
 
