@@ -2,6 +2,8 @@
 [![License: GPL v2](https://img.shields.io/badge/License-GPL%20v2-blue.svg)](https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html)
 [![GitHub contributors](https://img.shields.io/github/contributors/OfflineIMAP/offlineimap.svg)](https://github.com/OfflineIMAP/offlineimap/graphs/contributors)
 
+[![Snap status](https://build.snapcraft.io/badge/snapcrafters/offlineimap.svg)](https://build.snapcraft.io/user/snapcrafters/offlineimap)
+
 [![Python versions supported](https://img.shields.io/pypi/pyversions/offlineimap.svg)](https://pypi.python.org/pypi/offlineimap)
 [![Package stability](https://img.shields.io/pypi/status/offlineimap.svg)](https://pypi.python.org/pypi/offlineimap)
 [![PyPI status](https://badge.fury.io/py/offlineimap.svg)](https://pypi.python.org/pypi/offlineimap)
@@ -35,6 +37,11 @@ Fork status:
 [docs]: https://offlineimap.readthedocs.io/
 [mailing_list]: http://lists.alioth.debian.org/mailman/listinfo/offlineimap-project
 
+[![OfflineIMAP](https://upload.wikimedia.org/wikipedia/commons/1/13/OfflineIMAP_logo.png)]
+# OfflineIMAP
+Read/sync your IMAP mailboxes. Works on Linux and MacOSX.
+***"Get the emails where you need them."***
+
 Links:
 * [Official (upstream) github code repository][offlineimap]
 * [Website][website]
@@ -43,10 +50,6 @@ Links:
 * [![Documentation](https://readthedocs.org/projects/offlineimap/badge/?version=latest&style=flat)](https://offlineimap.readthedocs.io/)
 * [Mailing list][mailing_list]
 
-
-# OfflineIMAP
-
-***"Get the emails where you need them."***
 
 ## Description
 
@@ -92,8 +95,12 @@ GNU General Public License v2.
 
 ## Downloads
 
-You should first check if your distribution already packages OfflineIMAP for you.
-Downloads releases as [tarball or zipball](https://github.com/OfflineIMAP/offlineimap/tags).
+* You should first check if your distribution already packages OfflineIMAP for you.
+* Downloads releases as [tarball or zipball](https://github.com/OfflineIMAP/offlineimap/tags).
+* You can easily [Install as a Snap](https://snapcraft.io/offlineimap)
+`sudo snap install offlineimap`
+The configuration file for offlineimap should be placed in ```$HOME/snap/offlineimap/current/.offlineimaprc```
+([Don't have snapd installed?](https://snapcraft.io/docs/core/install))
 
 
 ## Feedbacks and contributions
