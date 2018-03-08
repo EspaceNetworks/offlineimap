@@ -1,7 +1,6 @@
 [![Github All Releases](https://img.shields.io/github/downloads/atom/atom/total.svg)](https://github.com/OfflineIMAP/offlineimap/graphs/traffic)
 [![License: GPL v2](https://img.shields.io/badge/License-GPL%20v2-blue.svg)](https://www.gnu.org/licenses/old-licenses/gpl-2.0.en.html)
 [![GitHub contributors](https://img.shields.io/github/contributors/OfflineIMAP/offlineimap.svg)](https://github.com/OfflineIMAP/offlineimap/graphs/contributors)
-
 [![Snap status](https://build.snapcraft.io/badge/snapcrafters/offlineimap.svg)](https://build.snapcraft.io/user/snapcrafters/offlineimap)
 
 [![Python versions supported](https://img.shields.io/pypi/pyversions/offlineimap.svg)](https://pypi.python.org/pypi/offlineimap)
@@ -37,10 +36,12 @@ Fork status:
 [docs]: https://offlineimap.readthedocs.io/
 [mailing_list]: http://lists.alioth.debian.org/mailman/listinfo/offlineimap-project
 
+<p align="center>
 [![OfflineIMAP](https://upload.wikimedia.org/wikipedia/commons/1/13/OfflineIMAP_logo.png)]
 # OfflineIMAP
-Read/sync your IMAP mailboxes. Works on Linux and MacOSX.
 ***"Get the emails where you need them."***
+
+## Read/sync your IMAP mailboxes. Works on Linux and MacOSX.
 
 Links:
 * [Official (upstream) github code repository][offlineimap]
