@@ -6,7 +6,7 @@ Package info:
 [![PyPI status](https://badge.fury.io/py/offlineimap.svg)](https://pypi.python.org/pypi/offlineimap)
 [![Kit format](https://img.shields.io/pypi/format/offlineimap.svg)](https://pypi.python.org/pypi/offlineimap)
 [![Last deployed](https://img.shields.io/github/last-commit/OfflineIMAP/offlineimap/gh-pages.svg?label=last%20deployed)](https://github.com/OfflineIMAP/offlineimap/commits/gh-pages)
-[![Follow on twitter](https://img.shields.io/twitter/follow/shields_io.svg?style=social&logo=twitter)](https://twitter.com/intent/follow?screen_name=OfflineIMAP)
+[![Follow on twitter](https://img.shields.io/twitter/follow/OfflineIMAP.svg?style=social&logo=twitter)](https://twitter.com/intent/follow?screen_name=OfflineIMAP)
 
 Master: [![OfflineIMAP build status on Travis-CI.org](https://travis-ci.org/OfflineIMAP/offlineimap.svg)](https://travis-ci.org/OfflineIMAP/offlineimap)
 [![Code coverage](https://codecov.io/gh/OfflineIMAP/offlineimap/branch/master/graph/badge.svg)](https://codecov.io/gh/OfflineIMAP/offlineimap)
