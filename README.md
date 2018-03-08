@@ -22,7 +22,7 @@ Fork status:
 [![OfflineIMAP code coverage on Codecov.io](https://codecov.io/gh/EspaceNetworks/offlineimap/branch/master/graph/badge.svg)](https://codecov.io/gh/EspaceNetworks/offlineimap)
 [![Gitter chat](https://badges.gitter.im/EspaceNetworks/offlineimap.png)](https://gitter.im/EspaceNetworks/offlineimap)
 [![Say thanks to ESPACE Networks](https://img.shields.io/badge/Say%20Thanks-!-1EAEDB.svg)](https://saythanks.io/to/chris001)
-
+[![Follow on twitter](https://img.shields.io/twitter/follow/ESPACENetworks.svg?style=social&logo=twitter)](https://twitter.com/intent/follow?screen_name=ESPACENetworks)
 
 [offlineimap]: http://github.com/OfflineIMAP/offlineimap
 [website]: http://www.offlineimap.org
