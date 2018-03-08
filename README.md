@@ -5,6 +5,8 @@
 [![Package stability](https://img.shields.io/pypi/status/offlineimap.svg)](https://pypi.python.org/pypi/offlineimap)
 [![PyPI status](https://badge.fury.io/py/offlineimap.svg)](https://pypi.python.org/pypi/offlineimap)
 [![Kit format](https://img.shields.io/pypi/format/offlineimap.svg)](https://pypi.python.org/pypi/offlineimap)
+[![Implementation](https://img.shields.io/pypi/implementation/offlineimap.svg)](https://pypi.python.org/pypi/offlineimap)
+
 [![GitHub last commit](https://img.shields.io/github/last-commit/OfflineIMAP/offlineimap.svg)](https://github.com/OfflineIMAP/offlineimap/commits/master)
 [![GitHub Release Date](https://img.shields.io/github/release-date/OfflineIMAP/offlineimap.svg)](https://github.com/OfflineIMAP/offlineimap/releases)
 [![Follow on twitter](https://img.shields.io/twitter/follow/OfflineIMAP.svg?style=social&logo=twitter)](https://twitter.com/intent/follow?screen_name=OfflineIMAP)
