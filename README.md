@@ -43,7 +43,8 @@ Fork status:
 # OfflineIMAP
 ***"Get the emails where you need them."***
 
-## Read/sync your IMAP mailboxes. Works on Linux and MacOSX.
+## Read/sync your IMAP mailboxes. Works on Linux and Mac OSX.
+
 </p>
 
 Links:
