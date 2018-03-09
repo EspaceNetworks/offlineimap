@@ -36,11 +36,11 @@ Fork status:
 [docs]: https://offlineimap.readthedocs.io/
 [mailing_list]: http://lists.alioth.debian.org/mailman/listinfo/offlineimap-project
 
-<center>
+<p style="center">
 <h1><img src="https://upload.wikimedia.org/wikipedia/commons/1/13/OfflineIMAP_logo.png" alt="OfflineIMAP"/>OfflineIMAP</h1>
 <b><i>"Get the emails where you need them."</i></b>
 <h2> Read/sync your IMAP mailboxes. Works on Linux and Mac OSX. </h2>
-</center>
+</p>
 
 Links:
 * [Official (upstream) github code repository][offlineimap]
