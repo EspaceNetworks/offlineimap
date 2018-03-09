@@ -38,7 +38,7 @@ Fork status:
 
 <center>
 
-![OfflineIMAP](https://upload.wikimedia.org/wikipedia/commons/1/13/OfflineIMAP_logo.png)
+<img src="https://upload.wikimedia.org/wikipedia/commons/1/13/OfflineIMAP_logo.png" alt="OfflineIMAP"/>
 
 # OfflineIMAP
 ***"Get the emails where you need them."***
