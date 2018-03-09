@@ -53,7 +53,7 @@ Links:
 
 ## Description
 
-* OfflineIMAP is software that downloads your email mailbox(es) as **[local Maildirs]()https://en.wikipedia.org/wiki/Maildir**.
+* OfflineIMAP is software that downloads your email mailbox(es) as **[local Maildirs](https://en.wikipedia.org/wiki/Maildir)**.
 * OfflineIMAP will synchronize mailboxes between two mail servers via *[IMAP](https://en.wikipedia.org/wiki/Internet_Message_Access_Protocol)*.
 
 ## Why should I use OfflineIMAP?
