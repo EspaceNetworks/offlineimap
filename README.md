@@ -40,10 +40,10 @@ Fork status:
 
 <img src="https://upload.wikimedia.org/wikipedia/commons/1/13/OfflineIMAP_logo.png" alt="OfflineIMAP"/>
 
-# OfflineIMAP
-***"Get the emails where you need them."***
+<h1> OfflineIMAP </h1>
+<i>"Get the emails where you need them."</i>
 
-## Read/sync your IMAP mailboxes. Works on Linux and Mac OSX.
+<h2> Read/sync your IMAP mailboxes. Works on Linux and Mac OSX. </h2>
 
 </center>
 
