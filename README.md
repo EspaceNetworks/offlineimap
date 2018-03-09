@@ -36,6 +36,7 @@ Fork status:
 [blog]: http://www.offlineimap.org/posts.html
 [docs]: https://offlineimap.readthedocs.io/
 [mailing_list]: http://lists.alioth.debian.org/mailman/listinfo/offlineimap-project
+[mailing_list_archive]: http://dir.gmane.org/gmane.mail.imap.offlineimap.general
 
 <p style="center">
 <h1><img src="https://upload.wikimedia.org/wikipedia/commons/1/13/OfflineIMAP_logo.png" alt="OfflineIMAP"/>OfflineIMAP</h1>
@@ -49,7 +50,8 @@ Links:
 * [Wiki][wiki]
 * [Blog][blog]
 * [![Documentation](https://readthedocs.org/projects/offlineimap/badge/?version=latest&style=flat)](https://offlineimap.readthedocs.io/)
-* [Mailing list][mailing_list]
+* [Subscribe to the Mailing List][mailing_list]
+* [Read/Search the Mailing List Archive][mailing_list_archive]
 
 
 ## Description
@@ -109,7 +111,8 @@ The configuration file for offlineimap should be placed in ```$HOME/snap/offline
 
 **The user discussions, development, announcements and all the exciting stuff take
 place on the mailing list.** While not mandatory to send emails, you can
-[subscribe here](http://lists.alioth.debian.org/mailman/listinfo/offlineimap-project).
+[subscribe to the Mailing List here][mailing_list],
+and [read/search the Mailing List Archive][mailing_list_archive].
 
 Bugs, issues and contributions can be requested to both the mailing list or the
 [official Github project][offlineimap].  Provide the following information:
