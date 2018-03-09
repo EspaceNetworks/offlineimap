@@ -53,8 +53,8 @@ Links:
 
 ## Description
 
-OfflineIMAP is software that downloads your email mailbox(es) as **local
-Maildirs**. OfflineIMAP will synchronize both sides via *IMAP*.
+* OfflineIMAP is software that downloads your email mailbox(es) as **[local Maildirs]()https://en.wikipedia.org/wiki/Maildir**.
+* OfflineIMAP will synchronize mailboxes between two mail servers via *[IMAP](https://en.wikipedia.org/wiki/Internet_Message_Access_Protocol)*.
 
 ## Why should I use OfflineIMAP?
 
@@ -64,7 +64,8 @@ With OfflineIMAP, you can download your Mailboxes and make you own backups of
 your [Maildir](https://en.wikipedia.org/wiki/Maildir).
 
 This allows reading your email offline without the need for your mail
-reader (MUA) to support IMAP operations. Need an attachment from a
+reader ([MUA](https://en.wikipedia.org/wiki/Email_client)) to support IMAP operations. 
+Need an [attachment](https://en.wikipedia.org/wiki/Email_attachment) from a
 message without internet connection? No problem, the message is still there.
 
 
