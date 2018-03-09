@@ -11,6 +11,7 @@
 
 [![GitHub last commit](https://img.shields.io/github/last-commit/OfflineIMAP/offlineimap.svg)](https://github.com/OfflineIMAP/offlineimap/commits/master)
 [![GitHub Release Date](https://img.shields.io/github/release-date/OfflineIMAP/offlineimap.svg)](https://github.com/OfflineIMAP/offlineimap/releases)
+[![Github Tag](https://img.shields.io/github/tag/OfflineIMAP/offlineimap.svg)](https://github.com/OfflineIMAP/offlineimap/releases)
 [![Follow on twitter](https://img.shields.io/twitter/follow/OfflineIMAP.svg?style=social&logo=twitter)](https://twitter.com/intent/follow?screen_name=OfflineIMAP)
 
 Master: [![OfflineIMAP build status on Travis-CI.org](https://travis-ci.org/OfflineIMAP/offlineimap.svg)](https://travis-ci.org/OfflineIMAP/offlineimap)
