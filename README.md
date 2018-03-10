@@ -37,6 +37,18 @@ Fork status:
 [docs]: https://offlineimap.readthedocs.io/
 [mailing_list]: http://lists.alioth.debian.org/mailman/listinfo/offlineimap-project
 [mailing_list_archive]: http://dir.gmane.org/gmane.mail.imap.offlineimap.general
+[code_of_conduct]: https://github.com/OfflineIMAP/offlineimap/blob/master/CODE_OF_CONDUCT.md
+[copying_license]: https://github.com/OfflineIMAP/offlineimap/blob/master/COPYING
+[changelog]: https://github.com/OfflineIMAP/offlineimap/blob/master/Changelog.md
+[maintainers]: https://github.com/OfflineIMAP/offlineimap/blob/master/MAINTAINERS.rst
+[manifest]: https://github.com/OfflineIMAP/offlineimap/blob/master/MANIFEST.in
+[todo]: https://github.com/OfflineIMAP/offlineimap/blob/master/TODO.rst
+[conf]: https://github.com/OfflineIMAP/offlineimap/blob/master/offlineimap.conf
+[conf_minimal]: https://github.com/OfflineIMAP/offlineimap/blob/master/offlineimap.conf.minimal
+[issues_new]: https://github.com/OfflineIMAP/offlineimap/issues/new
+[pull_request_new]: https://github.com/OfflineIMAP/offlineimap/compare
+[issues_need_contrib]: https://github.com/OfflineIMAP/offlineimap/issues?q=is%3Aopen+is%3Aissue+label%3A"need+contributor!"
+
 
 <p style="center">
 <h1><img src="https://upload.wikimedia.org/wikipedia/commons/1/13/OfflineIMAP_logo.png" alt="OfflineIMAP"/>OfflineIMAP</h1>
@@ -58,6 +70,7 @@ Links:
 
 * OfflineIMAP is software that downloads your email mailbox(es) as **[local Maildirs](https://en.wikipedia.org/wiki/Maildir)**.
 * OfflineIMAP will synchronize mailboxes between two mail servers via *[IMAP](https://en.wikipedia.org/wiki/Internet_Message_Access_Protocol)*.
+* Most up to date [Change Log][changelog].
 
 ## Why should I use OfflineIMAP?
 
@@ -94,28 +107,28 @@ message without internet connection? No problem, the message is still there.
 
 ## License
 
-GNU General Public License v2.
+[GNU General Public License v2][copying_license].
 
 
 ## Downloads
 
-* You should first check if your distribution already packages OfflineIMAP for you.
+* You should first check if your distribution already packages OfflineIMAP for you. Most Linux do. On MacOSX thru Homebrew, MacPorts, and others.
 * Downloads releases as [tarball or zipball](https://github.com/OfflineIMAP/offlineimap/tags).
 * You can easily [Install as a Snap](https://snapcraft.io/offlineimap)
 `sudo snap install offlineimap`
 The configuration file for offlineimap should be placed in ```$HOME/snap/offlineimap/current/.offlineimaprc```
 ([Don't have snapd installed?](https://snapcraft.io/docs/core/install))
-
+Example [minimal conf file][conf__minimal], and [conf file with all options described in full][conf].
 
 ## Feedbacks and contributions
 
-**The user discussions, development, announcements and all the exciting stuff take
+* **The user discussions, development, announcements and all the exciting stuff take
 place on the mailing list.** While not mandatory to send emails, you can
 [subscribe to the Mailing List here][mailing_list],
 and [read/search the Mailing List Archive][mailing_list_archive].
 
-Bugs, issues and contributions can be requested to both the mailing list or the
-[official Github project][offlineimap].  Provide the following information:
+* Bugs, issues and contributions can be requested to both the mailing list or the
+[official Github project][offlineimap].  Open a [new issue][issues_new], and provide the following information:
 - system/distribution (with version)
 - offlineimap version (`offlineimap -V`)
 - Python version
@@ -126,6 +139,9 @@ Bugs, issues and contributions can be requested to both the mailing list or the
 - Logs, error
 - Steps to reproduce the error
 
+* Have a look at the ["To Do" list][todo], and the ["need contributor!" issues][issues_need_contrib], 
+then, contribute your code to solve the issue by [opening a pull request][pull_request_new].
+* Remeber to heed the [Code of Conduct][code_of_conduct].
 
 ## The community
 
@@ -144,8 +160,8 @@ Bugs, issues and contributions can be requested to both the mailing list or the
 
 ## Documentation
 
-All current and updated documentation is on the [community's website][website].
-
+* All current and updated documentation is on the [community's website][website].
+* The current [Change Log][changelog].
 
 ### Read documentation locally
 
@@ -159,6 +175,10 @@ $ make html  # Requires rst2html
 $ make man   # Requires a2x (http://asciidoc.org)
 $ make api   # Requires sphinx
 ```
+
+# Maintainers
+
+Our current list of [Maintainers][maintainers].
 
 # Contributors
 
