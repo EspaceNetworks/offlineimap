@@ -114,7 +114,7 @@ message without internet connection? No problem, the message is still there.
 ## Downloads
 
 * You should first check if your distribution already packages OfflineIMAP for you, most Linux have it. 
-* On MacOSX thru [Homebrew][brew_mac_install], [MacPorts][macports_mac_install], and others.
+* On MacOSX thru [Homebrew][homebrew_mac_install], [MacPorts][macports_mac_install], and others.
 * Downloads releases as [tarball or zipball](https://github.com/OfflineIMAP/offlineimap/tags).
 * You can easily [Install as a Snap](https://snapcraft.io/offlineimap)
 `sudo snap install offlineimap`
