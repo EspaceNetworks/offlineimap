@@ -48,7 +48,8 @@ Fork status:
 [issues_new]: https://github.com/OfflineIMAP/offlineimap/issues/new
 [pull_request_new]: https://github.com/OfflineIMAP/offlineimap/compare
 [issues_need_contrib]: https://github.com/OfflineIMAP/offlineimap/issues?q=is%3Aopen+is%3Aissue+label%3A"need+contributor!"
-
+[homebrew_mac_install]: https://brewinstall.org/Install-offlineimap-on-Mac-with-Brew/
+[macports_mac_install]: https://www.macports.org/ports.php?by=name&substr=offlineimap
 
 <p style="center">
 <h1><img src="https://upload.wikimedia.org/wikipedia/commons/1/13/OfflineIMAP_logo.png" alt="OfflineIMAP"/>OfflineIMAP</h1>
@@ -112,13 +113,14 @@ message without internet connection? No problem, the message is still there.
 
 ## Downloads
 
-* You should first check if your distribution already packages OfflineIMAP for you. Most Linux do. On MacOSX thru Homebrew, MacPorts, and others.
+* You should first check if your distribution already packages OfflineIMAP for you, most Linux have it. 
+* On MacOSX thru [Homebrew][brew_mac_install], [MacPorts][macports_mac_install], and others.
 * Downloads releases as [tarball or zipball](https://github.com/OfflineIMAP/offlineimap/tags).
 * You can easily [Install as a Snap](https://snapcraft.io/offlineimap)
 `sudo snap install offlineimap`
 The configuration file for offlineimap should be placed in ```$HOME/snap/offlineimap/current/.offlineimaprc```
 ([Don't have snapd installed?](https://snapcraft.io/docs/core/install))
-Example [minimal conf file][conf__minimal], and [conf file with all options described in full][conf].
+Example [minimal conf file][conf_minimal], and [conf file with all options described in full][conf].
 
 ## Feedbacks and contributions
 
