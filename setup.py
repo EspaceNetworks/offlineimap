@@ -72,6 +72,8 @@ setup(name = "offlineimap",
       long_description=long_description, # Optional
       author = offlineimap.__author__,
       author_email = offlineimap.__author_email__,
+      maintainer = offlineimap.__maintainer__,
+      maintainer_email = offlineimap.__maintainer_email__,
       url = offlineimap.__homepage__,
       #packages = ['offlineimap', 'offlineimap.folder',
       #            'offlineimap.repository', 'offlineimap.ui',
