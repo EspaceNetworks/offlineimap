@@ -6,9 +6,9 @@ __version__     = "7.1.5"
 __copyright__   = "Copyright 2002-2018 John Goerzen & contributors"
 __author__      = "John Goerzen"
 __author_email__= "offlineimap-project@lists.alioth.debian.org"
-__maintainer__ = "OfflineIMAP Connumity"
+__maintainer__  = "OfflineIMAP Community"
 __maintainer_email__ = "offlineimap-project@lists.alioth.debian.org"
-__description__ = "Disconnected Universal IMAP Mail Synchronization/Reader Support"
+__description__ = "Disconnected Universal IMAP Mail Synchronization/Reader"
 __license__  = "Licensed under the GNU GPL v2 or any later version (with an OpenSSL exception)"
 __bigcopyright__ = """%(__productname__)s %(__version__)s
   %(__license__)s""" % locals()

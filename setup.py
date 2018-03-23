@@ -22,14 +22,13 @@
 #    Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
 
 import os
-from distutils.core import setup, Command
+#from distutils.core import setup, Command
+# Always prefer setuptools over distutils
+from setuptools import setup, find_packages, Command
 import offlineimap
 import logging
 from test.OLItest import TextTestRunner, TestLoader, OLITestLib
 
-# Always prefer setuptools over distutils
-#from setuptools import setup, find_packages
-from setuptools import find_packages
 # To use a consistent encoding
 from codecs import open
 
@@ -65,6 +64,8 @@ class TestCommand(Command):
         #TODO: failfast does not seem to exist in python2.6?
         TextTestRunner(verbosity=2,failfast=True).run(suite)
 
+pkgs=find_packages(exclude=['contrib.*', 'docs.*', 'tests.*', 'test.*', 'test', 'tests'])
+#print("%s"% repr(pkgs))
 
 setup(name = "offlineimap",
       version = offlineimap.__version__,
@@ -75,9 +76,7 @@ setup(name = "offlineimap",
       maintainer = offlineimap.__maintainer__,
       maintainer_email = offlineimap.__maintainer_email__,
       url = offlineimap.__homepage__,
-      #packages = ['offlineimap', 'offlineimap.folder',
-      #            'offlineimap.repository', 'offlineimap.ui',
-      #            'offlineimap.utils'],
+
       scripts = ['bin/offlineimap'],
       license = offlineimap.__copyright__ + \
                 ", Licensed under the GPL version 2",
@@ -94,12 +93,24 @@ setup(name = "offlineimap",
         #   5 - Production/Stable
         'Development Status :: 5 - Production/Stable',
 
+	'Environment :: Console',
+	'Environment :: No Input/Output (Daemon)',
+
         # Indicate who your project is intended for
         'Intended Audience :: Information Technology',
         'Intended Audience :: End Users/Desktop',
         'Intended Audience :: System Administrators',
 
+	'Natural Language :: English',
+
+	'Operating System :: POSIX :: Linux',
+	'Operating System :: POSIX :: BSD',
+	'Operating System :: POSIX',
+	'Operating System :: Microsoft :: Windows',
+	'Operating System :: MacOS :: MacOS X',
+
         'Topic :: Communications :: Email',
+	'Topic :: Communications :: Email Clients (MUA)',
         'Topic :: Communications :: Email :: Post-Office :: IMAP',
 
         # Pick your license as you wish
@@ -119,7 +130,7 @@ setup(name = "offlineimap",
     # project page. What does your project relate to?
     #
     # Note that this is a string of words separated by whitespace, not a list.
-    keywords='IMAP sync email Gmail Maildir kerberos TLS SSL GSSAPI',  # Optional
+    keywords=['IMAP', 'sync', 'email', 'Gmail', 'Maildir', 'kerberos', 'TLS', 'SSL', 'GSSAPI', 'offline', 'python', 'emails', 'mutt', 'notmuch', 'synchronize', 'maildir', 'mailboxes'], # Optional
 
     # You can just specify package directories manually here if your project is
     # simple. Or you can use find_packages().
@@ -130,7 +141,10 @@ setup(name = "offlineimap",
     #
     #   py_modules=["my_module"],
     #
-    packages=find_packages(exclude=['contrib', 'docs', 'tests', 'test']),  # Required
+    #packages = ['offlineimap', 'offlineimap.folder',
+    #            'offlineimap.repository', 'offlineimap.ui',
+    #            'offlineimap.utils'],
+    packages=pkgs,  # Required
 
     # This field lists other packages that your project depends on to run.
     # Any package you put here will be installed by pip when your project is
@@ -196,7 +210,7 @@ setup(name = "offlineimap",
         'Funding': 'https://opencollective.com/offlineimap#backer',
         'Say Thanks!': 'http://saythanks.io/to/offlineimap',
         'Source': 'https://github.com/OfflineIMAP/offlineimap',
-},
+    },
 
 )
 
