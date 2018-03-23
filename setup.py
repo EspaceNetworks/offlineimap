@@ -164,7 +164,8 @@ setup(name = "offlineimap",
     # projects.
     extras_require={  # Optional
         'dev': ['check-manifest'],
-        'test': ['coverage'],
+        'tests': ['coverage','pytest','pytest-cov','coverage','codecov','gssapi'],
+        'kerberos': ['gssapi'],
     },
 
     # If there are data files included in your packages that need to be
