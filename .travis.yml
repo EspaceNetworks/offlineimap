@@ -78,6 +78,8 @@ script:
 #- coverage run ./offlineimap.py -c ./oli-travis.conf
 - ./offlineimap.py -c ./oli-travis.conf
 - codecov
+after_success:
+  - coveralls
 notifications:
   email: false
   webhooks:
