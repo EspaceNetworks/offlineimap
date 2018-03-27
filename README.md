@@ -6,8 +6,6 @@
 [![Python versions supported](https://img.shields.io/pypi/pyversions/offlineimap.svg)](https://pypi.python.org/pypi/offlineimap)
 [![Package stability](https://img.shields.io/pypi/status/offlineimap.svg)](https://pypi.python.org/pypi/offlineimap)
 [![PyPI status](https://badge.fury.io/py/offlineimap.svg)](https://pypi.python.org/pypi/offlineimap)
-[![Kit format](https://img.shields.io/pypi/format/offlineimap.svg)](https://pypi.python.org/pypi/offlineimap)
-[![Implementation](https://img.shields.io/pypi/implementation/offlineimap.svg)](https://pypi.python.org/pypi/offlineimap)
 
 [![GitHub last commit](https://img.shields.io/github/last-commit/OfflineIMAP/offlineimap.svg)](https://github.com/OfflineIMAP/offlineimap/commits/master)
 [![GitHub Release Date](https://img.shields.io/github/release-date/OfflineIMAP/offlineimap.svg)](https://github.com/OfflineIMAP/offlineimap/releases)
@@ -16,16 +14,24 @@
 
 Master: [![OfflineIMAP build status on Travis-CI.org](https://travis-ci.org/OfflineIMAP/offlineimap.svg)](https://travis-ci.org/OfflineIMAP/offlineimap)
 [![Code coverage](https://codecov.io/gh/OfflineIMAP/offlineimap/branch/master/graph/badge.svg)](https://codecov.io/gh/OfflineIMAP/offlineimap)
+[![Coverage Status](https://coveralls.io/repos/github/OfflineIMAP/offlineimap/badge.svg?branch=master)](https://coveralls.io/github/OfflineIMAP/offlineimap?branch=master)
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/OfflineIMAP/offlineimap/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/OfflineIMAP/offlineimap/?branch=master)
+
 [![Gitter chat](https://badges.gitter.im/OfflineIMAP/offlineimap.png)](https://gitter.im/OfflineIMAP/offlineimap)
 [![Say thanks to OfflineIMAP](https://img.shields.io/badge/Say%20Thanks-!-______.svg)](https://saythanks.io/to/OfflineIMAP)
 
 Next:
 [![OfflineIMAP build status on Travis-CI.org](https://travis-ci.org/OfflineIMAP/offlineimap.svg?branch=next)](https://travis-ci.org/OfflineIMAP/offlineimap)
 [![Code coverage](https://codecov.io/gh/OfflineIMAP/offlineimap/branch/next/graph/badge.svg)](https://codecov.io/gh/OfflineIMAP/offlineimap)
+[![Coverage Status](https://coveralls.io/repos/github/OfflineIMAP/offlineimap/badge.svg?branch=master)](https://coveralls.io/github/OfflineIMAP/offlineimap?branch=next)
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/OfflineIMAP/offlineimap/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/OfflineIMAP/offlineimap/?branch=next)
 
 Fork status:
 [![OfflineIMAP build status on Travis-CI.org](https://travis-ci.org/EspaceNetworks/offlineimap.svg?branch=master)](https://travis-ci.org/EspaceNetworks/offlineimap)
 [![OfflineIMAP code coverage on Codecov.io](https://codecov.io/gh/EspaceNetworks/offlineimap/branch/master/graph/badge.svg)](https://codecov.io/gh/EspaceNetworks/offlineimap)
+[![Coverage Status](https://coveralls.io/repos/github/EspaceNetworks/offlineimap/badge.svg?branch=master)](https://coveralls.io/github/EspaceNetworks/offlineimap?branch=master)
+[![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/EspaceNetworks/offlineimap/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/EspaceNetworks/offlineimap/?branch=master)
+
 [![Gitter chat](https://badges.gitter.im/EspaceNetworks/offlineimap.png)](https://gitter.im/EspaceNetworks/offlineimap)
 [![Say thanks to ESPACE Networks](https://img.shields.io/badge/Say%20Thanks-!-1EAEDB.svg)](https://saythanks.io/to/chris001)
 [![Follow on twitter](https://img.shields.io/twitter/follow/ESPACENetworks.svg?style=social&logo=twitter)](https://twitter.com/intent/follow?screen_name=ESPACENetworks)
